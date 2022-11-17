@@ -1,0 +1,139 @@
+ body{
+    height: 90%;
+    background: url(image/formback.png);
+    background-repeat:no-repeat;
+    width: 90%;
+}
+
+/* this is for the form container */
+  .containerpt-4{
+    max-width: 500px;
+    width: 100%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(14px);
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 1.9px;
+    background-color: rgba(0, 0, 0, 0.096);
+    
+    
+}
+
+
+
+/* this is for the form box */
+.form-select {
+    background: #00000033;
+    border-radius: 8px;
+    border-width: 1.5px;
+    box-shadow:#1e2833;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+/* for the options when you click please select */
+
+ option {
+    background: #514f92;
+    
+    
+}
+
+
+
+
+.email {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.infof{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+label{
+    color: white;
+    padding: 10px;
+    padding-right: 300px;
+    padding-bottom: 5px;
+}
+
+/* this is the card when clickong an option */
+.ca1{
+    background-color: #0000004b;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 1px;
+    margin-bottom: 40px;
+    color: white;
+    
+}
+
+/* on hover it changes */
+.ca1:hover {
+    box-shadow: 0 40px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* for the input boxed on select */
+input {
+    background: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #f1f2f3;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: white;
+}
+
+/* for the titles */
+.title {
+    color: white;
+}
+
+
+/* submit button  */
+
+button {
+
+    border: none;
+    border-radius: 5px;
+    padding: 11px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: px;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    outline-style: solid;
+    outline-color: #f1f2f3;
+    outline-width: 1px;
+
+}
+
+button:hover {
+    background: #ffffff3f;
+
+}
+
+.accordion-body{
+    color: rgba(255, 255, 255, 0);
+}
